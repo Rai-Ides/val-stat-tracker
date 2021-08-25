@@ -11,7 +11,7 @@ After that,
 const { getStats } = require("val-stat-tracker");<br/>
 
 console.log(getStats({username: "yourUserName#tagline"}));<br/>
-//or<br/>
+//or
 const check = getStats({username: "yourUserName#tagline"});<br/>
 console.log(check)
 ```
