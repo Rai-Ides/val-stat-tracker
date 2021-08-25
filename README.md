@@ -10,8 +10,8 @@ After that,
 ```
 const { getStats } = require("val-stat-tracker");<br/>
 
-console.log(getStats({username: "yourUserName#tagline"}));<br/>
+console.log(getStats({username: "yourUserName#tagline"}));
 //or
-const check = getStats({username: "yourUserName#tagline"});<br/>
+const check = getStats({username: "yourUserName#tagline"});
 console.log(check)
 ```
