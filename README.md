@@ -7,10 +7,10 @@ This is an valorant statistic tracker, powered by tracker.gg (not affliated tho)
 Good question, you just need to do `npm i val-stat-tracker --save'. 
 
 After that,
-`const { getStats } = require("val-stat-tracker");
+`const { getStats } = require("val-stat-tracker");<br/>
 
-console.log(getStats({username: "yourUserName#tagline"}));
-//or
-const check = getStats({username: "yourUserName#tagline"});
+console.log(getStats({username: "yourUserName#tagline"}));<br/>
+//or<br/>
+const check = getStats({username: "yourUserName#tagline"});<br/>
 console.log(check)
 `
