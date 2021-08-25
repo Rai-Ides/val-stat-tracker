@@ -8,7 +8,7 @@ Good question, you just need to do ```npm i val-stat-tracker request request-pro
 
 After that,
 ```
-const { getStats } = require("val-stat-tracker");<br/>
+const { getStats } = require("val-stat-tracker");
 
 console.log(getStats({username: "yourUserName#tagline"}));
 //or
